@@ -1,4 +1,10 @@
-.painel1 {
-    background-color: blue;
-    color: aqua;
+:root {
+    ---azul-principal: #2C1EE6;
+    ---azul-claro:#3CEBFF;
+    ---roxo:#9B25F5;
+    ---ciano:#2978E6;
+    ---verde:#1FF29B;
+}
+body {
+    background-color: #9B25F5;
 }
