@@ -8,3 +8,17 @@
 body {
     background-color: #9B25F5;
 }
+.painel1 {
+    width: 90%;
+    height: 20%;
+    background-color.var(---azul-principal);
+}
+.painel2 {
+    height: 450px;
+    width: 100%;
+}
+.rodape {
+height: 15%;
+width: 60%;
+background-color.var(---roxo)
+}
