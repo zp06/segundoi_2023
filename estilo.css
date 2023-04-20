@@ -3,24 +3,128 @@
     ---azul-claro:#3CEBFF;
     ---roxo:#9B25F5;
     ---ciano:#2978E6;
-    ---verde:#47dd9f;
-}
-body {
-    background-color: #9B25F5;
-}
-.painel1 {
-    width: 90%;
-    height: 20%;
-    background-color.var(---azul-principal);
-}
-.painel2 {
-    height: 450px;
-    width: 100%;
-}
-.rodape {
-height: 15%;
-width: 60%;
-background-color.var(---roxo)
-}
-
-
+    ---verde:#47dd9f;}
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box; 
+    }
+    
+    .container {
+        max-width: 100%; 
+        margin: 0 auto; 
+    }
+    
+    @media (min-width: 768px) {
+    }
+    
+    body {
+        overflow-x: hidden; 
+        overflow-y: hidden;
+        font-family: Arial, sans-serif;
+        padding: 0;
+        margin: 0;
+        height: 100%;
+    }
+    
+    .legal {
+        background: var(---roxo);
+        min-height: 100vh; 
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .painel {
+        display: flex;
+        justify-content: space-between;
+        background: linear-gradient(to bottom, var(---roxo), var(---azul-principal));
+        color: var(--letra);
+        align-items: center;
+        padding: 10px ;
+        justify-content: center;
+    }
+    
+    .cabeca {
+        max-width: 100px;
+        height: auto;
+    }
+    
+    .cabeca-lista-item,
+    .cabeca-lista-item1 {
+        display: inline-block;
+        margin: 0 16px;
+        font-size: 24px;
+        text-decoration: none;
+    }
+    
+    .cabeca-lista-item1 {
+        color: var(---verde);
+    }
+    
+    .cabeca-lista {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+    
+    .maconha-titulo{
+        text-align: center;
+        font-size: 60px;
+        margin-top: -200px;
+    }
+    
+    .maconha-titulo2 {
+        text-align: center;
+        font-size: 60px;
+        margin-top: -650px;
+    }
+    
+    .texto1,
+    .texto2 {
+        text-align: center;
+        font-size: 24px;
+    }
+    
+    .letrinha-kk {
+        font-size: 32px;
+        text-align: left;
+        text-indent: 50px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    
+    .letrinha-kk2 {
+        font-size: 28px;
+        text-align: left;
+        text-indent: 50px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    
+    
+    .negrito {
+        font-weight: bold;
+    color: var(---azul-claro);
+    }
+    
+    .container2 {
+        width: 500px;
+        height: 400px;
+        overflow: hidden;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        text-align: center;
+    }
+    
+    .minha-imagem {
+        height: auto;
+        max-width: 100%;
+    }
+    
