@@ -15,7 +15,7 @@
         margin: 0 auto; 
     }
     
-    @media (min-width: 768px) {
+    @media (min-width: 700px) {
     }
     
     body {
@@ -73,7 +73,7 @@
     
     .cigarro-titulo {
         text-align: center;
-        font-size: 60px;
+        font-size: 40px;
         margin-top: -200px;
     }
     
@@ -100,7 +100,7 @@
     .letrinha-kk2 {
         font-size: 24px;
         text-align: left;
-        text-indent: 50px;
+        text-indent: 40px;
         margin-top: 5px;
         margin-bottom: 5px;
     }
